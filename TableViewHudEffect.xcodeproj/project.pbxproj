@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1A24C1792110B66D00C1156F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A24C1782110B66D00C1156F /* AppDelegate.m */; };
-		1A24C17C2110B66D00C1156F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A24C17B2110B66D00C1156F /* ViewController.m */; };
 		1A24C17F2110B66D00C1156F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A24C17D2110B66D00C1156F /* Main.storyboard */; };
 		1A24C1812110B66D00C1156F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A24C1802110B66D00C1156F /* Assets.xcassets */; };
 		1A24C1842110B66D00C1156F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A24C1822110B66D00C1156F /* LaunchScreen.storyboard */; };
 		1A24C1872110B66D00C1156F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A24C1862110B66D00C1156F /* main.m */; };
 		1A24C1912110B66D00C1156F /* TableViewHudEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A24C1902110B66D00C1156F /* TableViewHudEffectTests.m */; };
 		1A24C19C2110B66D00C1156F /* TableViewHudEffectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A24C19B2110B66D00C1156F /* TableViewHudEffectUITests.m */; };
+		1A24C1AB2110BB5600C1156F /* HudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A24C1A92110BB5600C1156F /* HudViewController.m */; };
+		A8016AF365967CEEE7E182DD /* libPods-TableViewHudEffect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA29C023FBCCB1D343F13DF /* libPods-TableViewHudEffect.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FA29C023FBCCB1D343F13DF /* libPods-TableViewHudEffect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewHudEffect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A24C1742110B66D00C1156F /* TableViewHudEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewHudEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A24C1772110B66D00C1156F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A24C1782110B66D00C1156F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1A24C17A2110B66D00C1156F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1A24C17B2110B66D00C1156F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1A24C17E2110B66D00C1156F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A24C1802110B66D00C1156F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A24C1832110B66D00C1156F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,10 @@
 		1A24C1972110B66D00C1156F /* TableViewHudEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewHudEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A24C19B2110B66D00C1156F /* TableViewHudEffectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewHudEffectUITests.m; sourceTree = "<group>"; };
 		1A24C19D2110B66D00C1156F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A24C1A92110BB5600C1156F /* HudViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudViewController.m; sourceTree = "<group>"; };
+		1A24C1AA2110BB5600C1156F /* HudViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudViewController.h; sourceTree = "<group>"; };
+		4BFF9385EFFEF393C51DB065 /* Pods-TableViewHudEffect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewHudEffect.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewHudEffect/Pods-TableViewHudEffect.release.xcconfig"; sourceTree = "<group>"; };
+		9D63AEA877EEAA579A87C4A4 /* Pods-TableViewHudEffect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewHudEffect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewHudEffect/Pods-TableViewHudEffect.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8016AF365967CEEE7E182DD /* libPods-TableViewHudEffect.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				1A24C18F2110B66D00C1156F /* TableViewHudEffectTests */,
 				1A24C19A2110B66D00C1156F /* TableViewHudEffectUITests */,
 				1A24C1752110B66D00C1156F /* Products */,
+				E151AF84FF092AEC23BD2BB5 /* Pods */,
+				633700563A2C6AF4A6C80EEC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +110,8 @@
 			children = (
 				1A24C1772110B66D00C1156F /* AppDelegate.h */,
 				1A24C1782110B66D00C1156F /* AppDelegate.m */,
-				1A24C17A2110B66D00C1156F /* ViewController.h */,
-				1A24C17B2110B66D00C1156F /* ViewController.m */,
+				1A24C1AA2110BB5600C1156F /* HudViewController.h */,
+				1A24C1A92110BB5600C1156F /* HudViewController.m */,
 				1A24C17D2110B66D00C1156F /* Main.storyboard */,
 				1A24C1802110B66D00C1156F /* Assets.xcassets */,
 				1A24C1822110B66D00C1156F /* LaunchScreen.storyboard */,
@@ -132,6 +139,23 @@
 			path = TableViewHudEffectUITests;
 			sourceTree = "<group>";
 		};
+		633700563A2C6AF4A6C80EEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FA29C023FBCCB1D343F13DF /* libPods-TableViewHudEffect.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E151AF84FF092AEC23BD2BB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D63AEA877EEAA579A87C4A4 /* Pods-TableViewHudEffect.debug.xcconfig */,
+				4BFF9385EFFEF393C51DB065 /* Pods-TableViewHudEffect.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +163,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A24C1A02110B66D00C1156F /* Build configuration list for PBXNativeTarget "TableViewHudEffect" */;
 			buildPhases = (
+				633080B655120DED83109E23 /* [CP] Check Pods Manifest.lock */,
 				1A24C1702110B66C00C1156F /* Sources */,
 				1A24C1712110B66C00C1156F /* Frameworks */,
 				1A24C1722110B66C00C1156F /* Resources */,
@@ -260,12 +285,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		633080B655120DED83109E23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableViewHudEffect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A24C1702110B66C00C1156F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A24C17C2110B66D00C1156F /* ViewController.m in Sources */,
+				1A24C1AB2110BB5600C1156F /* HudViewController.m in Sources */,
 				1A24C1872110B66D00C1156F /* main.m in Sources */,
 				1A24C1792110B66D00C1156F /* AppDelegate.m in Sources */,
 			);
@@ -428,11 +474,13 @@
 		};
 		1A24C1A12110B66D00C1156F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D63AEA877EEAA579A87C4A4 /* Pods-TableViewHudEffect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GDW8EW5B9D;
 				INFOPLIST_FILE = TableViewHudEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TMS.TableViewHudEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,11 +490,13 @@
 		};
 		1A24C1A22110B66D00C1156F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BFF9385EFFEF393C51DB065 /* Pods-TableViewHudEffect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GDW8EW5B9D;
 				INFOPLIST_FILE = TableViewHudEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TMS.TableViewHudEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
